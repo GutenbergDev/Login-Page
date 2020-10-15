@@ -101,6 +101,7 @@ button[name=button_register]{
     color: #ffffff;
     font-size: 14px;
     border-radius: 20px;
+    outline: 0;
 }
 
 button[name=button_register]:hover{
@@ -150,10 +151,28 @@ section {
     width: 40px;
 }
 
+
+.footer {
+    font-size: 10px;
+    color: #9c9a9a;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #9c9a9a;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #DD3D3D;
+}
+
+
 @media (max-width:425px){
     .body {
         display: flex;
-       
     }
 
     .container {
